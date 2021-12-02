@@ -1,0 +1,15 @@
+{
+  "name": "hotspot-api",
+  "version": "1.0.0",
+  "description": "Backend de registro de nuevo usuario",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm start"
+  },
+  "keywords": [
+    "mikrotik",
+    "hotspot"
+  ],
+  "author": "Rohios",
+  "license": "ISC"
+}
