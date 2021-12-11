@@ -45,6 +45,7 @@ export class Servidor {
     escuchando(): void {
         this.app.listen(this.puerto, () => {
             console.log(`Servidor escuchando en el puerto: ${this.puerto}`)
+            // Error de consola
         })
     }
 }
