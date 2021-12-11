@@ -1,6 +1,6 @@
 import { Sequelize } from "sequelize"
 
-const conexion: Sequelize = new Sequelize(`mysql://uqmzksitwdgvg4nw:mnCevtzJqBy1ybSWCQnI@bhw1zvw36q2zxmctgely-mysql.services.clever-cloud.com:3306/bhw1zvw36q2zxmctgely`, {
+const conexion: Sequelize = new Sequelize(`mysql://udmblwbci2efnadz:hib3C0d5ZBxw2yW2QWwv@brstnivzvrvn55x5coqi-mysql.services.clever-cloud.com:3306/brstnivzvrvn55x5coqi`, {
     dialect: 'mysql',
     logging: false,
     // query: {
