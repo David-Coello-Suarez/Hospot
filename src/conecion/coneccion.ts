@@ -1,6 +1,6 @@
 import { Sequelize } from "sequelize"
 
-const conexion: Sequelize = new Sequelize(`mysql://davidc:Davidc.1@localhost:3306/hotspot`, {
+const conexion: Sequelize = new Sequelize(`mysql://davidc:Davidc.1@@localhost:3306/hotspot`, {
     dialect: 'mysql',
     logging: false,
     // query: {
