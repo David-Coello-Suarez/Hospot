@@ -11,7 +11,7 @@ export class Servidor {
 
     constructor() {
         this.app = express()
-        this.puerto = process.env.PUERTO || 3000
+        this.puerto = process.env.PORT || 3000
 
         this.coneccionDB()
     }
