@@ -34,12 +34,12 @@ export class Servidor {
 
     private middelewares(): void {
         const corsOptions = {
-            origin: "http://wifirohios.com",
-            optionsSuccessStatus: 200, // some legacy browsers (IE11, various SmartTVs) choke on 204
-        }
+            origin: 'http://wifirohios.com',
+            optionsSuccessStatus: 200 // some legacy browsers (IE11, various SmartTVs) choke on 204
+          }
 
         this.app.use(express.json())
-        this.app.use(cors(corsOptions))
+        this.app.use(cors())
         this.app.use(morgan("dev"))
     }
 
