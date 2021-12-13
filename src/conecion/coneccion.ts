@@ -1,7 +1,7 @@
 import { Sequelize } from "sequelize"
 
-const conexion: Sequelize = new Sequelize(`mysql://davidc:Davidc.1@@localhost:3306/hotspot`, {
-    dialect: 'mysql',
+const conexion: Sequelize = new Sequelize(`mysql://davidc:Davidc.1@@localhost/hotspot`, {
+    dialect: "mysql",
     logging: false,
     // query: {
     //     raw: true,
@@ -11,6 +11,7 @@ const conexion: Sequelize = new Sequelize(`mysql://davidc:Davidc.1@@localhost:33
         typeCast: true,
     },
     timezone: "-05:00",
+    sync: { force: true },
 })
 
 export default conexion
